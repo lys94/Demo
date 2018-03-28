@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <title>智能秤</title>
+    <title></title>
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        font-size: 1.0rem;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .topimg {
+        width: 100%;
+    }
+
+    .title {
+        padding-left: 0.75rem;
+    }
+    /* .title p {
+        display: inline-block;
+    }*/
+
+    .title1 {
+        font-size: 1.1rem;
+        color: black;
+        font-weight: 800;
+    }
+
+    .title2 {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 0.8rem;
+        color: #A3A3A3;
+        font-weight: bold;
+    }
+
+    .wire {
+        /*  padding: 0 0.5rem 0; */
+    }
+
+    .consult {
+        width: 100%;
+        height: 3.5rem;
+        background-color: #A3A3A3;
+        border: 0px solid;
+        border-radius: 0.4rem;
+    }
+
+    .consult-test {
+        position: relative;
+        text-align: center;
+        color: #fff;
+        font-size: 1.1rem;
+        padding-top: 0.4rem;
+    }
+
+    .triangle {
+        width: 0;
+        height: 0;
+        border: 0.65rem solid transparent;
+        border-top: 0.65rem solid #fff;
+        margin-left: 47%;
+        margin-top: 0.5rem;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .title3 {
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 0.3rem 0;
+        color: #A3A3A3;
+    }
+
+    .title3 span {
+        display: inline-block;
+        padding: 0.5rem 0.5rem;
+        color: red;
+    }
+
+    .int {
+        width: 100%;
+        height: 2.5rem;
+        border: 1px solid #A3A3A3;
+        border-radius: 0.5rem;
+        margin-bottom: 0.35rem;
+        font-size: 0.85rem;
+        outline: none;
+        text-indent: 0.6rem;
+    }
+
+    .auth {
+        width: 41%;
+        height: 2.5rem;
+        border: 1px solid #A3A3A3;
+        border-radius: 0.5rem;
+        margin-bottom: 0.35rem;
+        font-size: 0.85rem;
+        outline: none;
+        text-indent: 0.6rem;
+    }
+
+    .auth-span {
+        display: inline-block;
+        vertical-align: top;
+        width: 46%;
+        height: 2.5rem;
+        background-color: #A9D18F;
+        border-radius: 0.9rem;
+        text-align: center;
+        font-size: 0.75rem;
+        margin-left: 1.1rem;
+        line-height: 2.45rem;
+        color: #fff;
+        border-width: 0rem;
+        outline: none;
+    }
+
+    .btn {
+        width: 100%;
+        height: 2.6rem;
+        text-align: center;
+        background-color: red;
+        border-radius: 0.75rem;
+        color: #fff;
+        line-height: 2.5rem;
+        font-size: 1.0rem;
+        border-width: 0rem;
+        outline: none;
+    }
+
+    .hint {
+        font-size: 0.6rem;
+        color: #A3A3A3;
+        padding: 0.5rem 1.25rem
+    }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img class="topimg" src="imges/QQ图片20180306171746.jpg">
+        <div class="title">
+            <span class="title1">平安保险方案专家</span>
+            <p>
+                <span class="title2">一站式为您和你家人免费咨询&nbsp;|</span>
+                <span class="title2 wire">不限社保用药</span>
+            </p>
+        </div>
+        <div class="consult">
+            <p class="consult-test">免费咨询通道</p>
+            <div class="triangle"></div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="title3">已有<span>63832</span>报名索要分析</p>
+        <div>
+            <input type="text" class="int" name="" placeholder="请输入您的姓名" id="username">
+        </div>
+        <div>
+            <input type="text" class="int" name="" placeholder="请输入您的手机号" id="add_phone">
+        </div>
+        <div>
+            <input type="text" class="auth" name="" placeholder="请输入验证码" id="code">
+            <button class="auth-span" id="addSendCode">获取验证码</button>
+        </div>
+        <div>
+            <button id="btn" class="btn">免费预约专家分析</button>
+        </div>
+        <p class="hint">温馨提示：预约后，平安健康专家将通过电话与你联系，确认您的个人信息情况后会免费定制最佳方案！定制方案绝不收费！</p>
+    </div>
+</body>
+<script type="text/javascript">
+function fib(num) {
+  if (num === 0) return 0;
+  if (num === 1) return 1;
+  return fib(num - 2) + fib(num - 1);
+}
+
+fib(6)
+</script>
+
+</html>

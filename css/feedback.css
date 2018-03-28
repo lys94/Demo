@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    font-family: "Microsoft YaHei", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 1.0rem;
+}
+
+.top-portrait {
+    height: 4.5rem;
+    width: 100%;
+    background-color: #F6F8F9;
+}
+
+.user-message {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    margin: 0px 0.75rem;
+    height: 4.5rem;
+}
+
+.user-img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 3.0rem;
+}
+.name {
+    padding-left: 0.6rem;
+    font-size: 22px;
+}
+.proposal {
+    height: auto;
+    width: 100%;
+}
+.proposal-item {
+    margin: 1.1rem 0.75rem;
+}
+
+.data-table {
+	margin: 23px 21px;
+    list-style: none;
+	line-height: 28px;
+}
+.table-li {
+	border-top: 1px solid #E2E4E5;
+}
+.table-li:nth-child(4) {
+	border-bottom: 1px solid #E2E4E5;
+}
+
+.left-text {
+	display: inline-block;
+    width: 80px;
+    height: 30px;
+    padding-left: 15px;
+    border-right: 1px solid #E2E4E5;
+}
+
+.right-text {
+	padding-left: 15px;
+}
+.title {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+.icon-img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.title-txt {
+    padding-left: 0.8rem;
+}
+.opinion {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    padding:0.6rem 0.1rem 0.6rem 2.3rem;
+}
+.opinion-txt {
+    color: #BDBDBD;
+    line-height: 1.5rem;
+    word-wrap: break-word;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    border-top: 1px dashed gray;
+    margin: 0 22px 0 45px;
+    text-align: left;
+    font-size: 14px;
+}
+.bottom-txt {
+	color: #BDBDBD;
+    line-height: 1.5rem;
+    word-wrap: break-word;
+    margin: 12px 0px 30px 0px;
+}
